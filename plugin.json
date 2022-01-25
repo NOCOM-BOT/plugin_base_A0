@@ -1,0 +1,9 @@
+{
+  "formatVersion": 0,
+  "subclass": 0,
+  "entryPoint": "entry.js",
+  "author": "BadAimWeeb (Replace this with your name if this is your plugin)",
+  "pluginName": "A0 Template (Replace this with your plugin name)",
+  "pluginNamespace": "a0template_replaceme",
+  "pluginVersion": "0.1.0"
+}
