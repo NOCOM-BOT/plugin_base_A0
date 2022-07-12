@@ -1,4 +1,4 @@
-import * as NOCOM_AType from "@nocom_bot/nocom-atype-v0";
+import * as NOCOM_AType from "@nocom_bot/nocom-atype-support";
 
 // For DRM purposes. You can check if your plugin is genuine or not, then report back to the handler.
 // The handler will immediately crash the plugin if it receives non-genuine state coming from the plugin.
