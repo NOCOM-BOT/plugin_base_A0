@@ -15,7 +15,9 @@ let registeredModules = await NOCOM_AType.callAPI("core", "get_registered_module
 await NOCOM_AType.log.info(registeredModules);
 
 // Defining a command called /example_shutdown that will close the plugin if called.
-await NOCOM_AType.registerCommand("example_shutdown", async data => {
+await NOCOM_AType.registerCommand("example_shutdown", () => {
+  // No specification for this yet.
+}, async data => {
   NOCOM_AType.exit(0, "shutdown command called");
 });
 
