@@ -18,5 +18,6 @@
     "pluginName": "A0 Template (Replace this with your plugin name)",
     "pluginNamespace": "a0template_replaceme",
     "pluginVersion": "0.1.0"
-  }
+  },
+  "type": "module"
 }
