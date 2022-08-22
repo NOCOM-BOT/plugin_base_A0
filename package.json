@@ -11,7 +11,7 @@
   "license": "MIT",
   "dependencies": {},
   "NOCOM_AType_Metadata": {
-    "formatVersion": 0,
+    "formatVersion": 1,
     "subclass": 0,
     "entryPoint": "entry.js",
     "author": "BadAimWeeb (Replace this with your name if this is your plugin)",
