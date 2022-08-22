@@ -16,7 +16,9 @@ await NOCOM_AType.log.info(registeredModules);
 
 // Defining a command called /example_shutdown that will close the plugin if called.
 await NOCOM_AType.registerCommand("example_shutdown", {
-  args: {},
+  args: {
+    fallback: ""
+  },
   argsName: [],
   description: {
     fallback: "Shutdown?",
